@@ -38,7 +38,12 @@ body {
   background :var(--color-bg);
   color:var(--color-white);
   line-height :1.7;
-  background-image: url(../src/assets/bg-texture.png)
+  background-image: linear-gradient(black, transparent);
+  background-image: url(../src/assets/bg3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* ============== GENERAL STYLES ============== */
@@ -58,6 +63,7 @@ h1 {
 
 section {
   margin-top : 8rem;
+  height: 100vh;
 }
 
 section > h2 , section >h5 {
@@ -75,7 +81,7 @@ section > h2 {
 }
 a {
   color:var(--color-primary);
-  transition:var(--transition)
+  transition:var(--transition);
 }
 
 a :hover {
@@ -86,7 +92,9 @@ a :hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
+  padding: 0.75rem 3.2rem;
+  margin: 1rem ;
+
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
