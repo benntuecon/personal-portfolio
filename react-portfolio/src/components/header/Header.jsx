@@ -15,12 +15,11 @@ const Header = () => {
                     Ben Chen
                 </h1>
                 <h5 >
-                    A Data Scientist & Software Engineer, currently in Master of Science in Data Science program at <a href="https://www.usfca.edu/arts-sciences/programs/graduate/data-science/" target="_blank" rel="noreferrer" >USF</a>
+                    A Data Scientist & Software Engineer, currently a Master of Science in Data Science student at <a href="https://www.usfca.edu/arts-sciences/programs/graduate/data-science/" target="_blank" rel="noreferrer" >USF</a>
                 </h5>
                 <h5 className='text-light'>
 
                 </h5>
-
                 <CTA />
                 <HeaderSocials />
                 <div className='me'>

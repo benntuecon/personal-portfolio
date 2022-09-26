@@ -131,7 +131,7 @@ const About = () => {
                             <h5 className='about__card__head'>About experience in Machine learing:</h5>
                             <small className='text'>
                                 {"\n"}
-                                I am currently a MSDS student in USF, focusing on production level Machine Learning practices.{"\n"}
+                                I am currently a MSDS student in USF, focusing on production-level Machine Learning practices.{"\n"}
                                 I've been build both NASnet and ResNet with Tensorflow as a final project in school(undergrad).{"\n"}
                                 I applied BERT model for NLP Recommendation system for start-up company that I co-founded.{"\n"}
 
@@ -145,7 +145,7 @@ const About = () => {
                             <h5 className='about__card__head'>About software engineering experience:</h5>
                             <small className='text'>{"\n"} As a self-taught software engineer with over one year experience.
                                 I'm really comfortable with all sorts of learning curve(I'm a big fan of Vim by the way).{"\n"}
-                                Though I have experience with Java, C#, Scala, my area of expertise is mainly Python and Javascript.{"\n"}
+                                Though I have experience with Java, C#, and Scala, my area of expertise is mainly Python and Javascript.{"\n"}
                             </small>
                         </article>
                     </div>
