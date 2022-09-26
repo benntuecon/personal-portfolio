@@ -9,14 +9,18 @@ const Header = () => {
         <header>
             <div className="container header__container">
                 <h5>
-                    HELLO, I'M
+                    Hello, this is
                 </h5>
                 <h1>
                     Ben Chen
                 </h1>
-                <h5 className='text-light'>
-                    A data scientist and web developer
+                <h5 >
+                    A Data Scientist & Software Engineer, currently in Master of Science in Data Science program at <a href="https://www.usfca.edu/arts-sciences/programs/graduate/data-science/" target="_blank" rel="noreferrer" >USF</a>
                 </h5>
+                <h5 className='text-light'>
+
+                </h5>
+
                 <CTA />
                 <HeaderSocials />
                 <div className='me'>
