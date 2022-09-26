@@ -12,7 +12,7 @@ const Header = () => {
                     Hello, this is
                 </h5>
                 <h1>
-                    Ben Chen
+                    👋🏼 Ben Chen
                 </h1>
                 <h5 >
                     A Data Scientist & Software Engineer, currently a Master of Science in Data Science student at <a href="https://www.usfca.edu/arts-sciences/programs/graduate/data-science/" target="_blank" rel="noreferrer" >USF</a>
