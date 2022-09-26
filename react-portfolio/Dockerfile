@@ -1,8 +1,10 @@
 FROM node:alpine
+RUN npm install -g create-react-app
 WORKDIR /app
 COPY package.json .
+RUN npm install react-scripts --force
 RUN npm install
-RUN npm install react-scripts
+
 COPY . .
 
 EXPOSE 3000
