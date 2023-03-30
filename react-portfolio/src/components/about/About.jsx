@@ -11,6 +11,12 @@ import {
 
 
 const About = () => {
+    const [isHovered, setIsHovered] = React.useState(false)
+
+    const handleMouseHover = () => {
+        setIsHovered(!isHovered)
+    }
+
     return (
         <section id='about'>
             <h2 >I've been doing projects using ...</h2>
@@ -25,7 +31,6 @@ const About = () => {
                             <SiPython className="icon" />
                         </div>
                         <div className='about__me-img'>
-
                             <SiJupyter className="icon" />
                         </div>
                         <div className='about__me-img'>
